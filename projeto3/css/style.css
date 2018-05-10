@@ -1,0 +1,33 @@
+#body {
+  margin: 0;
+  padding-top: 330px;
+  background-color:#fff;
+}
+#header{
+  padding-top:100px;
+  height:330px;
+  width:100%;
+  background: url('https://unsplash.it/600/200?image=668') center;
+  background-size: cover;
+  background-color:#009999;
+  color:#fff;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.navbar,
+#main {
+  position: relative; 
+}
+.navbar.navbar-default {
+  z-index: 150;
+  margin-bottom: -50px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+#main {
+  background-color: #fff;
+  padding:100px 0 50px 0;
+}
